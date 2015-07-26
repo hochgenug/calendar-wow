@@ -1,0 +1,6 @@
+# Parameters
+parameters.yml
+
+# Composer
+/vendor/
+/composer.phar

@@ -1,0 +1,6 @@
+parameters:
+    calendar_id:
+    developer_key:
+    calendar_ferie: fr.french#holiday@group.v.calendar.google.com
+    ip:
+    mac_address:

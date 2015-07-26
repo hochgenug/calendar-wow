@@ -1,0 +1,20 @@
+{
+  "require": {
+    "google/apiclient": "dev-master",
+    "incenteev/composer-parameter-handler": "~2.0",
+    "symfony/Yaml": "2.7.2"
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters"
+    ],
+    "post-update-cmd": [
+      "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters"
+    ]
+  },
+  "extra": {
+    "incenteev-parameters": {
+      "file": "parameters.yml"
+    }
+  }
+}
